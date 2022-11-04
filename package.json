@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/thel3onardo/sveltekit-koa-crud-monorepo/issues"
   },
-  "homepage": "https://github.com/thel3onardo/sveltekit-koa-crud-monorepo#readme"
+  "homepage": "https://github.com/thel3onardo/sveltekit-koa-crud-monorepo#readme",
+  "workspaces": ["./packages/app", "./packages/server"]
 }
